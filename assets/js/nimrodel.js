@@ -66,6 +66,10 @@ $(document).ready(function () {
         $(".modal").hide();
     });
 
+    $('#nosotros').click(function () {        
+        $("#modal4").show();
+    });   
+
     $('#img1').click(function () {       
         $("#modal1").show();
     });
@@ -76,10 +80,10 @@ $(document).ready(function () {
 
     $('#img3').click(function () {
         $("#modal3").show();
-    });
-
+    });    
 });
 
 $("#modal1").hide();
 $("#modal2").hide();
 $("#modal3").hide();
+$("#modal4").hide();
